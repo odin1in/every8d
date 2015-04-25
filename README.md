@@ -1,6 +1,6 @@
 # Every8d
 
-TODO: Write a gem description
+Taiwan SMS Provider Every8d API
 
 ## Installation
 
