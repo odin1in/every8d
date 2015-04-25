@@ -2,8 +2,6 @@ require "net/http"
 
 module Every8d
   class Client
-    attr_accessor :account, :password
-
     def initialize(options = {})
       @uid = options.fetch(:UID) { ENV.fetch('EVERY8d_ACCOUNT') }
 
