@@ -18,7 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    $every8d = Every8d.Client.new(UID: YOUR_ACCOUNT, PWD: YOUR_PASSWORD)
+
+    # Get Credit
+    $every8d.get_credit
+
+    # Send Message
+    $every8d.send_sms(MSG: YOUR_MESSAGE, DEST: DEST_MOBILE)
+
+    # Get Message Status
+    $every8d.get_message(BID: MESSAGE_BID)
 
 ## Contributing
 
