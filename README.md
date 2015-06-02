@@ -18,16 +18,16 @@ Or install it yourself as:
 
 ## Usage
 
-    $every8d = Every8d.Client.new(UID: YOUR_ACCOUNT, PWD: YOUR_PASSWORD)
+    every8d = Every8d::Client.new(UID: YOUR_ACCOUNT, PWD: YOUR_PASSWORD)
 
     # Get Credit
-    $every8d.get_credit
+    every8d.get_balance
 
     # Send Message
-    $every8d.send_sms(MSG: YOUR_MESSAGE, DEST: DEST_MOBILE)
+    every8d.send_sms(MSG: YOUR_MESSAGE, DEST: DEST_MOBILE)
 
     # Get Message Status
-    $every8d.get_message(BID: MESSAGE_BID)
+    every8d.get_message(BID: MESSAGE_BID)
 
 ## Contributing
 
